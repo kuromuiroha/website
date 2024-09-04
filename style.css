@@ -1,0 +1,122 @@
+body {
+    background-color: #11111b;
+    font-family: sans-serif;
+    color: #cdd6f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+header h1 {
+    color: #f5c2e7;
+    font-size: 36px;
+    margin: 0;
+}
+
+header h3 {
+    margin: 0;
+}
+
+header a {
+    color: #89b4fa;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px 0;
+    background-color: #1e1e2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+}
+
+.profile {
+    flex: 1 1 200px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #313244;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #f38ba8;
+}
+
+.profile h2 {
+    color: #f5c2e7;
+    margin: 10px 0;
+}
+
+.profile h3 {
+    color: #bac2de;
+    margin: 5px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    background-color: #1e1e2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project {
+    text-align: center;
+    background-color: #313244;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+    color: #fab387;
+    margin-bottom: 5px;
+}
+
+.project h3 {
+    color: #cba6f7;
+}
+
+.project a, .profile a {
+    color: #94e2d5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5e0dc;
+}

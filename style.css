@@ -123,6 +123,7 @@ header h3 a, header h3 a:visited {
 .profile h3 {
   color: var(--subtext0);
   font-weight: normal;
+  text-shadow: 2px 2px #1e1e2e;
 }
 
 .profile h3 a {
@@ -165,6 +166,7 @@ header h3 a, header h3 a:visited {
 .project h3 {
   color: var(--subtext1);
   font-weight: normal;
+  text-shadow: 2px 2px #1e1e2e;
 }
 
 .project h3 a {
